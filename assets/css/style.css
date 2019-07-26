@@ -1,0 +1,8 @@
+.gif {
+    max-width: 300px;
+    background-color: yellow; 
+}
+
+#gifs-here {
+    display: inline-block;
+}
