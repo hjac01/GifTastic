@@ -1,6 +1,12 @@
-.gif {
-    max-width: 300px;
-    background-color: yellow; 
+body {
+    width: 500px; 
+    height: 500px; 
+    background-color:plum; 
+}    
+
+    .gif {
+    float: right; 
+    margin: 50px; 
 }
 
 #gifs-here {
