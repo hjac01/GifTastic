@@ -34,7 +34,7 @@ $.ajax({
     var gifDiv = $("<div>")
     var rating = results[i].rating
     var p = $("<p>")
-    p.append("rating: " + rating)
+    .append("rating: " + rating)
     var gif = $("<img>")
     gif.attr("data-animate", results[i].images.original.url)
     .attr("data-still", results[i].images.original_still.url)
@@ -44,6 +44,9 @@ $.ajax({
     gifDiv.append(gif)
     gifDiv.append(p)
     $("#gifs-here").prepend(gifDiv)
+    
+  
+    
 
     }
 });
